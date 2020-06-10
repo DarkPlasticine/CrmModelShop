@@ -3,9 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmBL", "CrmBL\CrmBL.csproj", "{BD0AF874-8815-4EA0-BD27-206A178D47CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrmDL", "CrmDL\CrmDL.csproj", "{3343D649-6E6F-4D92-94CE-B52BC771AEE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmUI", "CrmUI\CrmUI.csproj", "{911CC78F-D608-40DB-A913-154E7AE43460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrmBL", "CrmBL\CrmBL.csproj", "{2AB3EC31-BB13-4D12-B9F6-B2A0BED04393}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrmAPI", "CrmAPI\CrmAPI.csproj", "{9E35BA59-29FE-4EFD-A0DC-3100BBEC85AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{702F5423-02D5-4B18-BE25-51569E106260}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KendoUIApp1", "KendoUIApp1\KendoUIApp1.csproj", "{FC0E9E55-4710-40EC-B3D6-C07C35C7E8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmUI", "CrmUI\CrmUI.csproj", "{8B4F0F56-3E82-42C2-A433-3AE9A7FC0A86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +24,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BD0AF874-8815-4EA0-BD27-206A178D47CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD0AF874-8815-4EA0-BD27-206A178D47CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD0AF874-8815-4EA0-BD27-206A178D47CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD0AF874-8815-4EA0-BD27-206A178D47CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{911CC78F-D608-40DB-A913-154E7AE43460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{911CC78F-D608-40DB-A913-154E7AE43460}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{911CC78F-D608-40DB-A913-154E7AE43460}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{911CC78F-D608-40DB-A913-154E7AE43460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3343D649-6E6F-4D92-94CE-B52BC771AEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3343D649-6E6F-4D92-94CE-B52BC771AEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3343D649-6E6F-4D92-94CE-B52BC771AEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3343D649-6E6F-4D92-94CE-B52BC771AEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB3EC31-BB13-4D12-B9F6-B2A0BED04393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB3EC31-BB13-4D12-B9F6-B2A0BED04393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB3EC31-BB13-4D12-B9F6-B2A0BED04393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB3EC31-BB13-4D12-B9F6-B2A0BED04393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E35BA59-29FE-4EFD-A0DC-3100BBEC85AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E35BA59-29FE-4EFD-A0DC-3100BBEC85AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E35BA59-29FE-4EFD-A0DC-3100BBEC85AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E35BA59-29FE-4EFD-A0DC-3100BBEC85AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0E9E55-4710-40EC-B3D6-C07C35C7E8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0E9E55-4710-40EC-B3D6-C07C35C7E8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0E9E55-4710-40EC-B3D6-C07C35C7E8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0E9E55-4710-40EC-B3D6-C07C35C7E8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4F0F56-3E82-42C2-A433-3AE9A7FC0A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4F0F56-3E82-42C2-A433-3AE9A7FC0A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4F0F56-3E82-42C2-A433-3AE9A7FC0A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4F0F56-3E82-42C2-A433-3AE9A7FC0A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

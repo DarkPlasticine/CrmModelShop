@@ -33,11 +33,11 @@ namespace CrmAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddScoped(typeof(IBaseEntityService<>), typeof(BaseEntityService<>));
-            services.AddDbContext<Context>(options => options.
-                UseSqlServer("Data Source=shpizpurgen-pc;Initial Catalog=CRM;Integrated Security=True"));
-            services.AddDefaultIdentity<ApplicationUser>().AddEntityFrameworkStores<Context>();
+            //services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            //services.AddScoped(typeof(IBaseEntityService<>), typeof(BaseEntityService<>));
+            //services.AddDbContext<Context>(options => options.
+            //    UseSqlServer("Data Source=shpizpurgen-pc;Initial Catalog=CRM;Integrated Security=True"));
+            //services.AddDefaultIdentity<ApplicationUser>().AddEntityFrameworkStores<Context>();
 
             
         }

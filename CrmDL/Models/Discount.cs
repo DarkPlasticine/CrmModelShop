@@ -1,7 +1,8 @@
 ﻿namespace CrmDL.Models
 {
-    public class Discount
+    public class Discount:BaseObject
     {
+        //todo: приркуть сикдки
         
     }
 }

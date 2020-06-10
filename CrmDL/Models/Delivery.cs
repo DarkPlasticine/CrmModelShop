@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CrmDL.Models
 {
-    public class Delivery:BaseObject
+    public class Delivery: BaseObject
     {
-     /// <summary>
+        /// <summary>
         /// ID поставщика
         /// </summary>
         public int SupplierId { get; set; }

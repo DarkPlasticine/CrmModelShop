@@ -7,12 +7,9 @@ using System.Threading.Tasks;
 
 namespace CrmDL.Models
 {
-    public class Supplier
+    public class Supplier: BaseObject
     {
-        [Key]
-        public int Id { get; set; }
-
-        /// <summary>
+      /// <summary>
         /// Имя
         /// </summary>
         [Required]
@@ -73,10 +70,5 @@ namespace CrmDL.Models
         /// Страна
         /// </summary>
         public string Country { get; set; }
-
-        public override string ToString()
-        {
-            return $"{Surname} {Name} {Lastname}";
-        }
     }
 }

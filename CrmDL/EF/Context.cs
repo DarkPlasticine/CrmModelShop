@@ -32,6 +32,10 @@ namespace CrmDL.EF
         public DbSet<Delivery> Deliveries { get; set; }
         public DbSet<DeliveryStatus> DeliveryStatuses { get; set; }
         public DbSet<OrderStatus> OrderStatuses { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<Discount> Discounts{ get; set; }
+        public DbSet<Supplier> Suppliers{ get; set; }
 
     }
 }

@@ -1,115 +1,71 @@
-﻿html {
-    position: relative;
-    min-height: 100%;
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    margin-bottom: 60px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
-
-/* #region Navbar styles */
-.navbar-header {
-    border-bottom: 1px solid rgba(255,255,255, 0.1);
-}
-
-.navbar-brand {
-    font-size: 2rem;
-    font-weight: lighter;
-}
-/* #endregion */
-
-
-/* #region Footer styles */
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.85em;
-}
-/* #endregion */
-
-/* #region custom Kendo UI styles */
-
-
-h1 a {
-    color: #fff;
-    text-decoration: none;
-}
-
-h2 {
-    font-weight: lighter;
-}
-
-.placeholder img {
-    display: inline-block;
-}
-
-p .k-button {
-    margin: 0 15px 0 0;
-}
-
-#configure {
-    display: none;
-}
-
-p .k-button {
-    margin: 0 15px 0 0;
-}
-
-.k-state-active .label {
-    font-size: 1em;
-}
-
-#responsive-panel {
-    padding: 0;
-    width: 100%;
-}
-
-    #responsive-panel .k-menu {
-        padding: .5rem;
-    }
-/* #endregion */
-
-@media (max-width: 767px) {
-    #responsive-panel {
-        transition: all linear .2s;
-    }
-
-    #configure {
-        display: block;
-        float: right;
-    }
-
-    .k-rpanel {
-        padding: 0 1rem;
-    }
-
-    .k-rpanel-expanded {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-header {
-        width: 100%;
-    }
-
-    .navbar-brand {
-        font-size: 1.5rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    .k-menu .k-item,
-    .k-menu .k-link {
-        width: 100%;
-    }
-
-    .k-widget.k-menu-horizontal > .k-item {
-        border: none;
-    }
-
-    .k-menu .k-link {
-        box-sizing: border-box;
-    }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
 }

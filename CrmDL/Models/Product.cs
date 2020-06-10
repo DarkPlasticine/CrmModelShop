@@ -12,7 +12,8 @@ namespace CrmDL.Models
         /// ID марки табака
         /// </summary>
         [Required]
-        public int MarkId { get; set; }
+        public int BrandId { get; set; }
+        public virtual Brand Brand { get; set; }
 
         /// <summary>
         /// Вкус
@@ -56,17 +57,6 @@ namespace CrmDL.Models
         /// Вес упаковки
         /// </summary>
         public int Weight { get; set; }
-
-        /// <summary>
-        /// Скидка на табак
-        /// </summary>
-        public int Discount { get; set; }
-
-        public virtual Mark Mark { get; set; }
-        public virtual ICollection<Sell> Sells { get; set; }
-        public override string ToString()
-        {
-            return $"{Mark.Name} - {Name}";
-        }
+       
     }
 }
